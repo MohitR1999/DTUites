@@ -12,17 +12,42 @@
 </head>
 <BODY>
 <div class = "container-fluid">
+
 <div class="row">
   <div class="col-sm-12 jumbotron header embed-responsive"><img src = "images/main_text.png" id="main_text" class="img-responsive"></div>
 </div>
+
 <div class="row">
   <div class="col-sm-12 navbar embed-responsive"><b>Login here, or just explore...</b></div>
 </div>
-<div id="main_content">
+
+<div class="row main_content">
+
+  <form class="form embed-responsive" action="account_home.html">
+    <div class="input-group col-sm-12 textfields">
+      <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+      <input id="email" type="text" class="form-control" name="email" placeholder="Email or Phone">
+    </div>
+    <br>
+    <div class="input-group col-sm-12 textfields">
+      <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+      <input id="password" type="password" class="form-control" name="password" placeholder="Password">
+    </div>
+    <br>
+    <div class="input-group col-sm-12 textfields">
+      <input id="submit" type="submit" value="Submit" class="btn btn-primary">
+    </div>
+    <br>
+    <p style="margin:auto">Not having an account?Click <a href="signup.html">here</a> to create one, or just <a href="explore.html">Explore</a>...</p>
+  </form>
+
 </div>
+
 <div class="row">
   <div class="col-sm-12 jumbotron additional"><h4>A website made with love, by two passionate developers, named Mohit and Pankaj</h4></div>
 </div>
+
 </div>
+
 </BODY>
 </HTML>

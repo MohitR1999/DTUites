@@ -7,10 +7,9 @@ body {
     margin: 0;
 }
 .header {
-    padding: 50px;/* some padding */
-    text-align: right; /* center the text */
+    box-sizing: border-box;
+    height: 100px;
     background: #ccffff;
-    color: #ff5050;
     margin: 0px;
 }
 
@@ -40,6 +39,7 @@ body {
     overflow: hidden; /* Hide overflow */
     background-color: #333; /* Dark background color */
     margin: 0px;
+    box-sizing: border-box;
 }
 
 .navbar b {
@@ -51,11 +51,12 @@ body {
     text-decoration: none; /* Remove underline */
 }
 
-#main_content{
-  width: auto;
-  height: auto;
-  background-color: #99ccff;
+.main_content{
+  box-sizing: border-box;
+  background-color: #ffcccc;
+  padding: 150px;
 }
+
 .form-group{
   width: auto;
 }
@@ -65,4 +66,17 @@ body {
     background: #ddd; /* Grey background */
     font-size: 20px;
     margin: 0px;
+}
+
+.textfields{
+  width: auto;
+  margin: auto;
+}
+.form{
+  border: 2px solid #669900;
+  padding: 30px;
+  width: auto;
+  height: auto;
+  margin: auto;
+  box-sizing: border-box;
 }
