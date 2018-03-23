@@ -1,6 +1,6 @@
-*{
+/*{
   box-sizing:content-box;
-}
+}*/
 
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -11,6 +11,7 @@ body {
     text-align: right; /* center the text */
     background: #ccffff;
     color: #ff5050;
+    margin: 0px;
 }
 
 #main_logo{
@@ -38,6 +39,7 @@ body {
 .navbar {
     overflow: hidden; /* Hide overflow */
     background-color: #333; /* Dark background color */
+    margin: 0px;
 }
 
 .navbar b {
@@ -49,13 +51,18 @@ body {
     text-decoration: none; /* Remove underline */
 }
 
-.main_content{
+#main_content{
   width: auto;
-  height: 500px;
+  height: auto;
   background-color: #99ccff;
 }
-.footer {
+.form-group{
+  width: auto;
+}
+.additional {
     padding: 20px; /* Some padding */
     text-align: center; /* Center text*/
     background: #ddd; /* Grey background */
+    font-size: 20px;
+    margin: 0px;
 }
