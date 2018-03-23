@@ -1,5 +1,5 @@
 *{
-  box-sizing: border-box;
+  box-sizing:content-box;
 }
 
 body {
@@ -7,10 +7,27 @@ body {
     margin: 0;
 }
 .header {
-    padding: 80px; /* some padding */
-    text-align: center; /* center the text */
-    background: #1abc9c; /* green background */
-    color: white; /* white text color */
+    padding: 50px;/* some padding */
+    text-align: right; /* center the text */
+    background: #ccffff;
+    color: #ff5050;
+}
+
+#main_logo{
+    position: absolute;
+    left: 10px;
+    top: -20px;
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+}
+
+#main_text{
+  position: absolute;
+  left: 10px;
+  top: 0px;
+  width: 492px;
+  height: 100px;
 }
 
 /* Increase the font size of the <h1> element */
@@ -32,6 +49,11 @@ body {
     text-decoration: none; /* Remove underline */
 }
 
+.main_content{
+  width: auto;
+  height: 500px;
+  background-color: #99ccff;
+}
 .footer {
     padding: 20px; /* Some padding */
     text-align: center; /* Center text*/
