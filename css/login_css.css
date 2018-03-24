@@ -9,7 +9,7 @@ body {
 .header {
     box-sizing: border-box;
     height: 100px;
-    background: #ccffff;
+    background: #f0f0f0;
     margin: 0px;
 }
 
@@ -54,12 +54,10 @@ body {
 .main_content{
   box-sizing: border-box;
   background-color: #ffcccc;
-  padding: 150px;
+  padding: 80px;
 }
 
-.form-group{
-  width: auto;
-}
+
 .additional {
     padding: 20px; /* Some padding */
     text-align: center; /* Center text*/
