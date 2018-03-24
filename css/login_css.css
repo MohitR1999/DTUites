@@ -53,8 +53,10 @@ body {
 
 .main_content{
   box-sizing: border-box;
-  background-color: #ffcccc;
   padding: 80px;
+  height: 100%;
+  /* The image used */
+
 }
 
 
@@ -77,4 +79,18 @@ body {
   height: auto;
   margin: auto;
   box-sizing: border-box;
+}
+
+.parallax{
+  /* The image used */
+  background-image: url("../images/login_background.png");
+
+  /* Set a specific height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
