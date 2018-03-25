@@ -15,16 +15,16 @@ body {
 
 #main_logo{
     position: absolute;
-    left: 10px;
-    top: -20px;
+    left: 0px;
+    top: 0px;
     width: 300px;
     height: 300px;
-    padding: 10px;
+    padding: 0px;
 }
 
 #main_text{
   position: absolute;
-  left: 10px;
+  left: 0px;
   top: 0px;
   width: 492px;
   height: 100px;

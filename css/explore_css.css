@@ -1,0 +1,35 @@
+.header{
+box-sizing: border-box;
+height: auto;
+background: linear-gradient(#000000, #000000);
+overflow: hidden;
+}
+
+#explore_text{
+position: absolute;
+left: 0px;
+top: 0px;
+width: 171px;
+height: 50px;
+}
+.topnav {
+float: right;
+padding: 0px;
+border: none;
+margin-top: 8px;
+margin-right: 8px;
+margin-bottom: 8px;
+font-size: 17px;
+width: 30%;
+}
+
+.topnav input[type=text]{
+  width: 100%;
+  background-image: url("../images/search_icon.png");
+  background-repeat: no-repeat;
+  background-position:absolute;
+  left: 0px;
+  top:0px;
+  padding-left:30px;
+  background-size: contain;
+}
