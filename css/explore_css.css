@@ -3,6 +3,9 @@ box-sizing: border-box;
 height: auto;
 background: linear-gradient(#000000, #000000);
 overflow: hidden;
+position: fixed;
+z-index: 1;
+top: 0;
 }
 
 #explore_text{
@@ -12,6 +15,7 @@ top: 0px;
 width: 171px;
 height: 50px;
 }
+
 .topnav {
 float: right;
 padding: 0px;
@@ -32,4 +36,13 @@ width: 30%;
   top:0px;
   padding-left:30px;
   background-size: contain;
+}
+.main{
+  padding-top: 3%;
+}
+
+@@media screen and (max-width:480px) {
+  .main{
+    padding-top: 6%;
+  }
 }
